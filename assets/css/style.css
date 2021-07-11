@@ -109,8 +109,12 @@ main{
     position: absolute;
     left: 32%; 
     top: 18px;
+    height: 300vh;
 }
 
+.profile{
+    height:100vh;
+}
 
 .profile .banner{
     display: flex;
