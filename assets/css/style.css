@@ -112,6 +112,7 @@ main{
 
 .profile{
     height:100vh;
+    margin: 0 auto;
 }
 
 .profile .banner{
@@ -131,17 +132,15 @@ main{
     width:50px;
     background-color: #EE5622;
     height: 1px;
-    margin-top: 16px;
+    margin-top: 24px;
 }
 
 .profile .servicestitle p{
-    margin-left: 8px;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 36px;
     color: #FFFFFF;
-
 }
 
 .profile .banner h1{
@@ -151,6 +150,54 @@ main{
     font-size: 60px;
     line-height: 90px;
     width: 55%;
+}
+
+.services{
+    display: flex; 
+}
+
+.services .web{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #221E22;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 60%;
+    margin: 0 20px;
+}
+
+.services .web p{
+    color: #FFFFFF;
+    padding: 10px 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.services .web h4{
+    color: #FFFFFF;
+    padding: 10px;
+    border-bottom: solid 1px #ECA72C;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.services .web a button{
+    margin: 0 0 12px 0;
+    width: 208px;
+    height: 62px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #ECA72C;
+    color: #221E22;
+    border: none;
 }
 
 .projects{
@@ -165,7 +212,6 @@ main{
 
 .container{
     position: relative;
-    width: 70vw;
     display: flex;
     justify-content: center;
     align-items: center;
