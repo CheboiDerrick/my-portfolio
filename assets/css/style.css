@@ -18,16 +18,20 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: #221E22;
-    position: fixed;
+    position: absolute;
     width: 378px;
-    left: 35px;
+    left: 20px;
     top: 18px;
-    height: 98vh;
     color: white;
     text-align: center;
+    z-index: 999;
 }
 
-.sidebar h5{
+.sidebar .head img{
+    margin-top: 50px;
+}
+
+.sidebar .head h5{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -36,33 +40,74 @@ body{
     margin-bottom: 10px;
 }
 
-.sidebar p{
+.sidebar .head p{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
     margin-bottom: 10px;
+    border-bottom: 1px solid #ECA72C;
+    padding-bottom: 15px;
 }
 
-.sidebar ul li{
+.sidebar .nav {
+    margin: 20px 0;
+}
+
+.sidebar .nav ul li{
     list-style: none;
     padding: 10px;
     margin-bottom: 10px;
 }
 
-.sidebar ul li a{
+.sidebar .nav ul li a{
     text-decoration: none;
     color: white;
     padding: 10px;
     margin-bottom: 20px;
 }
 
+.sidebar .nav ul li:hover a{
+    border-bottom: solid 1px #ECA72C;
+    transform: scale(1.2);
+}
+
+.sidebar .contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sidebar .contact p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ECA72C;
+}
+
+.sidebar .contact .social{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin:20px 0;
+}
+
+.sidebar .contact .social img{
+    margin-left:30px;
+}
+
+.sidebar .contact .social a:hover{
+    transform: scale(1.3);
+    color: #FFFFFF;
+}
+
 .main{
-    
+    position: absolute;
     left: 35%;
     margin: auto;
-
 }
 
 .projects{
@@ -101,7 +146,6 @@ body{
 
 .container .card:hover{
     height:250px;
-
 }
 
 .container .card .imageBx{
