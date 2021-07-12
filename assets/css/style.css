@@ -82,6 +82,7 @@ body {
 .sidebar .nav ul li:hover a {
   border-bottom: solid 1px #eca72c;
   transform: scale(1.1);
+  transition:500ms ease;
 }
 
 .sidebar .contact {
@@ -114,6 +115,7 @@ body {
 .sidebar .contact .social a:hover {
   transform: scale(1.2);
   color: #ffffff;
+  transition: 500ms ease;
 }
 
 main {
@@ -333,4 +335,5 @@ main {
   font-size: 14px;
   line-height: 21px;
   margin-top: 120px;
+  margin-bottom: 10px;
 }
