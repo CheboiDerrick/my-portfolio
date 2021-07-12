@@ -17,6 +17,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -211,6 +215,7 @@ main {
   background-color: #eca72c;
   color: #221e22;
   border: none;
+  cursor: pointer;
 }
 
 .projects {
@@ -286,6 +291,7 @@ main {
   font-size: 20px;
   line-height: 30px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .container .card .content h2 {
