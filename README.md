@@ -14,6 +14,7 @@ The website has been developed using the following:
 - HTML
 - CSS
 - Bootstrap
+- You can also live view the website [here](https://cheboiderrick.github.io/my-portfolio/)
 
 ## Support and contact details
 Feel free to give suggestions or bugs and possible suggestions through:
